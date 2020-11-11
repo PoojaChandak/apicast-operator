@@ -17,7 +17,7 @@
 ## Installing APIcast self-managed gateway
 
 This section will take you through installing and deploying an APIcast self-managed
-gateway solution solution via the APIcast operator,
+gateway solution via the APIcast operator,
 using the [*APIcast*](apicast-crd-reference.md) custom resource.
 
 Deploying the APIcast custom resource will make the operator begin processing
@@ -57,7 +57,7 @@ By default, the following deployment configuration options will be applied:
 * Resource requirements: *CPU* [Request: 500m, Limit: 1], *Memory* [Request: 64Mi, Limit: 128Mi]
 
 Default configuration option is suitable for PoC or evaluation.
-One, many or all of the default configuration options can be overriden with
+One, many or all of the default configuration options can be overridden with
 specific field values in the [*APIcast*](apicast-crd-reference.md) custom resource.
 #### Providing the APIcast configuration through an available 3scale Porta endpoint
 
